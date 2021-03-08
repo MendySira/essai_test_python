@@ -7,4 +7,3 @@ def negatif(a,b):
     assert x < 0
 
 positif(2,4)
-positif(2,-4)
