@@ -1,3 +1,4 @@
+#tp_casino.py
 from random import randrange
 from math import ceil 
 
@@ -94,4 +95,3 @@ while argent_compte == -1:
 
 #Creation de la classe Joueur qui s'appelle p1
 p1 = Joueur(nom_joueur, argent_compte)
-
