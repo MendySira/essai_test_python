@@ -1,9 +1,7 @@
-#Les test en python se fait à l aide de assert et ca met assertion error aux cas ou la condition n est pas respecter
-def somme(a,b):
-    x = a + b
-    return x;
-def test_somme():
-    a = 2
-    b = 4
-    x = somme(a,b)
-    assert x >= 0
+#import tp_casino.py
+from tp_casino import Joueur
+
+j1 = Joueur("The Mike", 2000)
+
+def test_create_user():
+    assert j1 != None, "le joueur n'a pas été crée"
